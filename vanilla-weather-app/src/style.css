@@ -25,6 +25,10 @@ li {
   text-transform: capitalize;
 }
 
+.condition {
+  margin-top: 10px;
+}
+
 .overview {
   margin-bottom: 20px;
 }
@@ -41,7 +45,7 @@ li {
 }
 
 .weather-temperature img {
-  margin-right: -28px;
+  margin-right: -18px;
   margin-left: -19px;
   margin-top: -24px;
   height: 130px;
