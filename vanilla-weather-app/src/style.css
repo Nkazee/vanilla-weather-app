@@ -24,14 +24,32 @@ li {
   color: rgb(135, 135, 135);
 }
 
+.overview {
+  margin-bottom: 20px;
+}
+
 .weather-app {
   border: 1px solid grey;
   border-radius: 6px;
-
   padding: 22px;
 }
 
 .weather-app-wrapper {
   margin: 20px auto;
   max-width: 600px;
+}
+
+.weather-temperature img {
+  margin-right: -28px;
+  margin-left: -19px;
+  margin-top: -43px;
+  height: 132px;
+  width: 122px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  line-height: 1;
+  font-weight: 400px;
+  font-size: 56px;
 }
