@@ -53,3 +53,8 @@ li {
   font-weight: 400px;
   font-size: 56px;
 }
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 18px;
+}
