@@ -22,7 +22,6 @@ function formatDate(timestamp) {
 }
 
 function showTemperature(response) {
-  console.log(response.data);
   let descriptionElement = document.querySelector("#description");
   let temperatureElement = document.querySelector("#temperature");
   let humidityElement = document.querySelector("#humidity");
@@ -45,6 +44,5 @@ function showTemperature(response) {
 let city = "Durban";
 let apiKey = "ee9f98438ce01b9f7ae2c52f40add8ae";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-console.log(apiUrl);
 
 axios.get(apiUrl).then(showTemperature);
