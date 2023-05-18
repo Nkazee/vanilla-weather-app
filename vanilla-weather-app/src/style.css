@@ -57,4 +57,5 @@ li {
 .weather-temperature .units {
   position: relative;
   font-size: 18px;
+  bottom: 22px;
 }
