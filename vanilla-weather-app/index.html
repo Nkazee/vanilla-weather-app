@@ -19,25 +19,24 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <div class="overview">
-            <h2>Durban</h2>
+            <h2 id="city"></h2>
             <ul>
               <li>Thursday 04:00</li>
-              <li>Cloudy</li>
+              <li id="description"></li>
             </ul>
           </div>
           <div class="row">
             <div class="col-6">
               <div class="clearfix weather-temperature">
                 <img src="images/image.png" alt="clear" class="float-left" />
-                <strong>12</strong>
+                <strong id="temperature"></strong>
                 <span class="units">°C | <a href="#"> °F </a> </span>
               </div>
             </div>
             <div class="col-6">
               <ul>
-                <li>Percipitation: 0%</li>
-                <li>Humidity: 50%</li>
-                <li>Speed: 5km/h</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Speed: <span id="speed"></span>km/h</li>
               </ul>
             </div>
           </div>

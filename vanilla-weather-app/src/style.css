@@ -22,6 +22,7 @@ li {
   font-size: 16px;
   font-weight: 100;
   color: rgb(135, 135, 135);
+  text-transform: capitalize;
 }
 
 .overview {
@@ -42,16 +43,16 @@ li {
 .weather-temperature img {
   margin-right: -28px;
   margin-left: -19px;
-  margin-top: -43px;
-  height: 132px;
+  margin-top: -24px;
+  height: 130px;
   width: 122px;
 }
 
 .weather-temperature strong {
   color: rgb(33, 33, 33);
   line-height: 1;
-  font-weight: 400px;
-  font-size: 56px;
+  font-weight: 392px;
+  font-size: 51px;
 }
 
 .weather-temperature .units {
