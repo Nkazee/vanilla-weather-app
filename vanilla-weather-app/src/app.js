@@ -41,8 +41,20 @@ function showTemperature(response) {
   );
 }
 
-let city = "Durban";
-let apiKey = "ee9f98438ce01b9f7ae2c52f40add8ae";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+function handleSubmit(event) {
+  event.preventDefault();
+  let cityInputElement = document.querySelector("#city-input");
+  search(cityInputElement.value);
+}
 
-axios.get(apiUrl).then(showTemperature);
+function search(city) {
+  let apiKey = "ee9f98438ce01b9f7ae2c52f40add8ae";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+
+  axios.get(apiUrl).then(showTemperature);
+}
+
+search("Bloemfontein");
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", handleSubmit);
