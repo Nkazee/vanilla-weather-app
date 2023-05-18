@@ -1,5 +1,4 @@
 body {
-  background-color: aliceblue;
   font-family: Arial, Helvetica, sans-serif;
 }
 .weather-app {
@@ -8,4 +7,25 @@ body {
   margin: 20px auto;
   max-width: 600px;
   padding: 22px;
+}
+
+h2 {
+  color: #878787;
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 28px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 100;
+  color: rgb(135, 135, 135);
 }
