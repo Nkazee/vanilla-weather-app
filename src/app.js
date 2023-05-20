@@ -65,11 +65,10 @@ function displayFahrenheitTemperature(event) {
 
 let celsiusTemperature = null;
 
-search("Durban");
-
+let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
-let fahrenheitLink = document.querySelector("#fahrenheit-temperature");
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
 search("Durban");
