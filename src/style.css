@@ -45,6 +45,15 @@ li {
   max-width: 600px;
 }
 
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
 .weather-temperature img {
   margin-right: -18px;
   margin-left: -19px;
