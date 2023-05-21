@@ -51,18 +51,6 @@ li {
   text-align: center;
 }
 
-.weather-forecast-date {
-  font-size: 14px;
-  opacity: 0.6;
-}
-
-.weather-forecast-temperature {
-  font-size: 13px;
-}
-
-.weather-forecast-temperature-min {
-  opacity: 0.6;
-}
 .weather-temperature .active {
   color: rgb(33, 33, 33);
   cursor: default;
